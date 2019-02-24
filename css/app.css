@@ -1,8 +1,4 @@
 @import: "fonts.css";
-@import: "partials/navbar.css";
-@import: "partials/banner.css";
-@import: "partials/cta.css";
-@import: "partials/form.css";
 
 
 body {
@@ -10,4 +6,148 @@ border: 0px;
 padding: 0px;
 margin: 0px;
 background-color: #81a387;
+}
+
+/* Main navbar */
+.navbar {
+  font-family: "noe";
+  background-color: #35556d;
+  color: #F8CBBB;
+  transition: all 0.3s ease;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2em;
+  margin: 0px;
+}
+
+.navbar h1 {
+  font-size: 30px;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  height: calc(50vh-50px);
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-color: #35556d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "sofiapro";
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+.banner h1 {
+  font-family: "sofiapro";
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.banner p {
+  font-family: "sofiapro";
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  font-color: #f0e7d4;
+  padding: 5px;
+}
+
+h1.green {
+  font-family: "sofiapro";
+  color: #81a387;
+}
+
+h1.beige {
+  font-family: "sofiapro";
+  color: #F4EACE;
+}
+
+/* Call to Action*/
+.cta {
+  font-family: "sofiapro";
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cta p {
+  font-family: "sofiapro";
+  font-size: 16px;
+  color: #35556d;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  color: #35556d;
+  border: 1px solid #35556d;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.button:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #35556d;
+}
+
+/* Form */
+.form {
+  background-color: #81a387;
+  font-family: "sofiapro";
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-color: #35556d;
+  padding: 10px;
+}
+
+.form h1 {
+  font-family: "sofiapro";
+  font-size: 24px;
+  color: #35556d;
+  padding: 1em;
+  text-align: center;
+}
+
+.form p {
+  font-family: "sofiapro";
+  font-size: 16px;
+  color: #35556d;
+  padding: 1em;
+  text-align: center;
+}
+
+/*media queries*/
+
+@media screen and (min-width: 35.5em) {
+  .navbar {
+    height: 70px;
+  }
+
+  .navbar h1 {
+  font-size: 50px;
+}
+}
+
+@media screen and (min-width: 48em) {
+
+}
+
+@media screen and (min-width: 64em) {
+
+}
+
+@media screen and (min-width: 80em) {
+
 }
