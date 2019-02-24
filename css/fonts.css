@@ -1,0 +1,18 @@
+@font-face {
+  font-family: sofiapro;
+  src: url(../fonts/sofieproregular.otf) format("opentype");
+}
+
+div {
+  font-family: sofiapro;
+}
+
+@font-face {
+  font-family: noe;
+  src: url(../fonts/noedisplay-bold.otf) format("opentype");
+}
+
+div {
+  font-family: noe;
+}
+
