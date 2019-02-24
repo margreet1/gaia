@@ -1,0 +1,26 @@
+.form {
+  background-color: #81a387;
+  font-family: "sofiapro";
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-color: #35556d;
+  padding: 10px;
+}
+
+.form h1 {
+  font-family: "sofiapro";
+  font-size: 24px;
+  color: #35556d;
+  padding: 1em;
+  text-align: center;
+}
+
+.form p {
+  font-family: "sofiapro";
+  font-size: 16px;
+  color: #35556d;
+  padding: 1em;
+  text-align: center;
+}
+

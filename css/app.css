@@ -1,17 +1,13 @@
 @import: "fonts.css";
 @import: "partials/navbar.css";
 @import: "partials/banner.css";
+@import: "partials/cta.css";
+@import: "partials/form.css";
+
 
 body {
-border: 0;
-padding: 0;
-margin: 0;
+border: 0px;
+padding: 0px;
+margin: 0px;
 background-color: #81a387;
 }
-
-/*body {
-  margin: 0px;
-  color: #F8CBBB;
-  background-color: #35556dff;
-  font-family: noe;
-}*/

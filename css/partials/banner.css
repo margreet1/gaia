@@ -12,24 +12,28 @@
   border-bottom-right-radius: 50% 20%;
 }
 .banner h1 {
+  font-family: "sofiapro";
   text-align: center;
   font-size: 24px;
   font-weight: bold;
   padding: 5px;
 }
 
-#green {
-  color: #81a387;
-}
-
-#beige {
-  color: #F4EACE;
-}
-
 .banner p {
+  font-family: "sofiapro";
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 30px;
   font-color: #f0e7d4;
   padding: 5px;
+}
+
+h1.green {
+  font-family: "sofiapro";
+  color: #81a387;
+}
+
+h1.beige {
+  font-family: "sofiapro";
+  color: #F4EACE;
 }
