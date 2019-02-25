@@ -109,7 +109,7 @@ h1.beige {
   justify-content: center;
   text-align: center;
   font-color: #35556d;
-  padding: 10px;
+  padding: 1em;
 }
 
 .form h1 {
@@ -128,24 +128,82 @@ h1.beige {
   text-align: center;
 }
 
+.pure-input-1 {
+  margin: 5px;
+}
+
 /*media queries*/
 
-@media screen and (min-width: 35.5em) {
+@media screen and (min-width: 570px) {
   .navbar {
     height: 70px;
   }
 
   .navbar h1 {
-  font-size: 50px;
-}
+    font-size: 56px;
+  }
+
+  .banner {
+    height: calc(50vh-70px);
+  }
+
+  .banner h1 {
+    font-size: 40px;
+    padding: 30px;
+  }
+
+  .cta p {
+    font-family: "sofiapro";
+    font-size: 24px;
+    padding: 3em;
+  }
+
+  .button {
+  border: 1.5px solid #35556d;
+  padding: 20px 30px;
+  font-size: 24px;
+  }
+
+  .form {
+    padding: 3em;
+  }
+
+  .form h1 {
+    font-size: 40px;
+  }
+
+  .form p {
+  font-size: 24px;
+  }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 900px) {
+  .banner h1 {
+  font-size: 64px;
+  font-weight: bold;
+  padding: 50px;
+  }
 
+  .cta p {
+    font-family: "sofiapro";
+    font-size: 32px;
+    padding: 3em;
+  }
+
+  .form {
+    padding: 10em;
+  }
+
+  .form h1 {
+    font-size: 56px;
+  }
+
+  .form p {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 64em) {
-
 }
 
 @media screen and (min-width: 80em) {
