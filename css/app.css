@@ -80,7 +80,8 @@ h1.beige {
   font-family: "sofiapro";
   font-size: 16px;
   color: #35556d;
-  padding: 0.5em;
+  padding: 2em;
+  padding-bottom: .5em;
   text-align: center;
 }
 
@@ -109,14 +110,14 @@ h1.beige {
   justify-content: center;
   text-align: center;
   font-color: #35556d;
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .form h1 {
   font-family: "sofiapro";
   font-size: 24px;
   color: #35556d;
-  padding: 1em;
   text-align: center;
 }
 
@@ -130,6 +131,10 @@ h1.beige {
 
 .pure-input-1 {
   margin: 5px;
+}
+
+.pure-form {
+  display: inline-block;
 }
 
 /*media queries*/
@@ -159,17 +164,18 @@ h1.beige {
   }
 
   .button {
-  border: 1.5px solid #35556d;
-  padding: 20px 30px;
-  font-size: 24px;
+    border: 1.5px solid #35556d;
+    padding: 20px 30px;
+    font-size: 24px;
   }
 
   .form {
-    padding: 3em;
+    margin: 10em;
   }
 
   .form h1 {
     font-size: 40px;
+    padding-top: 0px;
   }
 
   .form p {
@@ -191,7 +197,8 @@ h1.beige {
   }
 
   .form {
-    padding: 10em;
+    padding-left: 10em;
+    padding-right: 10em;
   }
 
   .form h1 {
