@@ -5,7 +5,11 @@ body {
 border: 0px;
 padding: 0px;
 margin: 0px;
-background-color: #81a387;
+background-color: #35556d;
+}
+
+#bg-color {
+  background-color: #f0e7d4;
 }
 
 /* Main navbar */
@@ -23,6 +27,10 @@ background-color: #81a387;
   margin: 0px;
 }
 
+#font-color {
+  color: #35556d;
+}
+
 .navbar h1 {
   font-size: 30px;
 }
@@ -30,7 +38,7 @@ background-color: #81a387;
 /* Banner */
 .banner {
   text-align: center;
-  height: calc(50vh-50px);
+  height: calc(50vh - 50px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-color: #35556d;
@@ -38,15 +46,13 @@ background-color: #81a387;
   align-items: center;
   justify-content: center;
   font-family: "sofiapro";
-  border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
 }
 .banner h1 {
   font-family: "sofiapro";
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  padding: 5px;
+  padding: 0px;
 }
 
 .banner p {
@@ -65,15 +71,19 @@ h1.green {
 
 h1.beige {
   font-family: "sofiapro";
-  color: #F4EACE;
+  color: #f0e7d4;
 }
 
 /* Call to Action*/
 .cta {
+  height: 50vh;
   font-family: "sofiapro";
+  background-color: #81a387;
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
 }
 
 .cta p {
@@ -85,26 +95,46 @@ h1.beige {
   text-align: center;
 }
 
-.button {
+/*.button {
   display: inline-block;
   align-items: center;
   justify-content: center;
-  color: #35556d;
-  border: 1px solid #35556d;
+  color: #F4EACE;
+  border: 1px solid #F4EACE;
   padding: 10px 15px;
   border-radius: 50px;
   font-weight: lighter;
   opacity: 0.8;
+  text-decoration: none;
+}*/
+
+/*.button:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #F4EACE;
+}*/
+
+.button {
+  font-size: 24px;
+  color: #81a387;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  background: #35556d;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  opacity: 0.8;
 }
 .button:hover {
   opacity: 1;
+  background: #35556d;
   text-decoration: none;
-  color: #35556d;
+  color: #81a387;
 }
 
 /* Form */
 .form {
-  background-color: #81a387;
+  background-color: f0e7d4;
   font-family: "sofiapro";
   align-items: center;
   justify-content: center;
@@ -149,12 +179,12 @@ h1.beige {
   }
 
   .banner {
-    height: calc(50vh-70px);
+    height: calc(70vh-70px);
   }
 
   .banner h1 {
-    font-size: 40px;
-    padding: 30px;
+    font-size: 30px;
+    padding: 0px;
   }
 
   .cta p {
@@ -163,11 +193,11 @@ h1.beige {
     padding: 3em;
   }
 
-  .button {
-    border: 1.5px solid #35556d;
-    padding: 20px 30px;
+/*  .button {
+    border: 1.5px solid #F4EACE;
+    padding: 15px 25px;
     font-size: 24px;
-  }
+  }*/
 
   .form {
     margin: 10em;
@@ -184,16 +214,24 @@ h1.beige {
 }
 
 @media screen and (min-width: 900px) {
+  .navbar {
+    height: 80px;
+  }
+
+  .navbar h1 {
+    font-size: 64px;
+  }
+
   .banner h1 {
-  font-size: 64px;
-  font-weight: bold;
-  padding: 50px;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 0px;
   }
 
   .cta p {
     font-family: "sofiapro";
     font-size: 32px;
-    padding: 3em;
+    padding: 1em;
   }
 
   .form {
