@@ -24,3 +24,8 @@ div {
     font-style: normal;
 
 }
+
+@font-face {
+  font-family: caslon;
+  src: url(../fonts/caslongraphiqueef.ttf) format("truetype");
+}
