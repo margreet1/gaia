@@ -42,7 +42,7 @@ background-color: #35556d;
 /* Banner */
 .banner {
   text-align: center;
-  height: calc(50vh - 50px);
+  height: calc(45vh - 50px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-color: #35556d;
@@ -74,29 +74,30 @@ h1.beige {
 
 /* Call to Action*/
 .cta {
-  height: 50vh;
+  height: 55vh;
   font-family: "sofiapro";
   background-color: #81a387;
   align-items: center;
   justify-content: center;
   padding-top: 1em;
   text-align: center;
-  border-top-left-radius: 50% 20%;
-  border-top-right-radius: 50% 20%;
+  border-top-left-radius: 35% 20%;
+  border-top-right-radius: 35% 20%;
 }
 
 .cta p {
   font-family: "sofiapro";
-  font-size: 16px;
+  font-size: 20px;
   color: #35556d;
   padding-left: 3em;
   padding-right: 3em;
   padding-bottom: .5em;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .button {
-  font-size: 14px;
+  font-size: 16px;
   color: #81a387;
   padding: 10px 15px;
   border-radius: 50px;
