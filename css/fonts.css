@@ -16,3 +16,11 @@ div {
   font-family: noe;
 }
 
+@font-face {
+    font-family: 'horsham_serialregular';
+    src: url('horsham_serial-regular-webfont.woff2') format('woff2'),
+         url('horsham_serial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
